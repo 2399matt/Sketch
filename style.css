@@ -1,0 +1,47 @@
+*{
+    font-family:Helvetica, Arial, sans-serif
+}
+
+html, body{
+    width:100%;
+    min-height:100vh;
+    margin:0;
+    background-color:rgb(238, 219, 219);
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:solid 2px black;
+    background-color:rgb(152, 197, 236);
+   
+}
+.cell,.row{
+    background-color:whitesmoke;
+    
+}
+.header{
+    background-color:bisque;
+    display:flex;
+    gap:5px;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    background-color:darkblue;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    border:none;
+    border-radius:4px;
+}
+#rules{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:chocolate;
+    font-weight:bold;
+}
+li{
+    list-style:upper-roman;
+}
